@@ -1,10 +1,10 @@
 package = "cache-redis"
-version = "scm-1"
+version = "dev-1"
 source = {
     url = "git+https://github.com/mah0x211/lua-cache-redis.git",
 }
 description = {
-    summary = "cache-redis module",
+    summary = "cache storage module with redis backend.",
     homepage = "https://github.com/mah0x211/lua-cache-redis",
     license = "MIT/X11",
     maintainer = "Masatoshi Fukunaga",
