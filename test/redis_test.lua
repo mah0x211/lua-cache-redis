@@ -60,7 +60,7 @@ function testcase.get()
     assert.equal(c:get('foo', 1), 'hello')
 
     -- test that return nil after reached to ttl
-    sleep(1)
+    sleep(1.1)
     assert.is_nil(c:get('foo'))
     assert.equal(c:get('bar'), 'world')
     sleep(1)
